@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -mFA -v .
+ls -mFA -v 
