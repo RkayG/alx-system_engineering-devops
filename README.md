@@ -1,1 +1,1 @@
-I'm executing some shell scripts
+0-iam_betty  - switches the current user to betty
