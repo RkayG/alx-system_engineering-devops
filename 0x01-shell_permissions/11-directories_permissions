@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +xxx -d */
+chmod 755 -d */
