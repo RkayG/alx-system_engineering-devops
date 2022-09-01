@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 203  hello
+chmod +xxx  hello
