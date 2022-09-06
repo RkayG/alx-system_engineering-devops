@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f | tail
+find . -type f | cat | tail
