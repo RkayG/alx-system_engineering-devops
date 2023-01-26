@@ -6,19 +6,14 @@
 
 
 n=1
+
 while [ $n -le 20 ];
 do
-	if [ $n == 4 ];
-	then
-		echo 'bad luck fron China'
-	elif [ $n == 9 ];
-	then
-		echo 'bad luck from Japan'
-	elif [ $n == 17 ];
-	then
-		echo 'bad luck from Italy'
-	else
-		echo $n
-	fi
+	echo $n
+	case $n in
+		"4") echo "bad luck from China";;
+		"9") echo "bad luck from Japan";;
+		"17") echo "bad luck from  Italy";;
+	esac
 	((n++))
 done
