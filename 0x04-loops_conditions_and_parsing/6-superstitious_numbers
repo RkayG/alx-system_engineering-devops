@@ -7,7 +7,7 @@
 
 n=1
 
-while [ $n -le 20 ];
+while [ $n -le 20 ]
 do
 	echo $n
 	case $n in
