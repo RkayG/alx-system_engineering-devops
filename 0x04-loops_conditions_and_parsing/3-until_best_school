@@ -3,7 +3,7 @@
 
 
 n=1
-until [ $n == 10 ]
+until [ $n -eq 10 ]
 do
 	echo 'Best School';
 	((n++))
