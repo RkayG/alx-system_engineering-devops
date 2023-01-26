@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Displays "Best School" 10 times using a for loop.
+
 
 for ((n=0;n<10;n++))
 do
