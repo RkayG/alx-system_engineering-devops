@@ -9,7 +9,6 @@
 n=1
 while [ $n -le 100 ];
 do
-	echo $n
 	if (( n % 15 == 0 ));then
 		echo "FizzBuzz"
 	elif (( n % 3 == 0 ));then
