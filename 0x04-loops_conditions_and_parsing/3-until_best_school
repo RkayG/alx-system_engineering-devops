@@ -6,5 +6,5 @@ n=1
 until [ $n -eq 10 ]
 do
 	echo 'Best School';
-	((n++))
+	(( n++ ))
 done
